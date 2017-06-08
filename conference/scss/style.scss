@@ -1,0 +1,110 @@
+
+html {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 130%;
+  line-height: 1.4;
+}
+.site-content {
+  flex: 1;
+  padding: 2rem 10% 2rem 10%;
+}
+.site-header,
+.site-footer {
+  background: black;
+  padding: 2rem 5% 1rem 5%;
+  position: relative;
+  color:white;
+}
+.site-header{
+padding: 5rem 10% 5rem 5%;
+text-align:center;
+font-size:30px;
+
+}
+
+a {
+  text-decoration: none;
+}
+.site-nav {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  margin-top: -16px;
+}
+
+.site-nav a {
+  margin-right: 0.5rem;
+  background: black;
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  border-top:2px solid white;
+}
+.row{
+  padding-top:30px;
+}
+.title{
+  border-bottom: 2px solid #1dafb5;
+    padding-bottom: 0px;
+  font-size:20px;
+}
+.date{
+  color:#1dafb5;
+}
+section{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  
+}
+table{
+  font-size:22px;
+}
+.dark{
+  position: relative;
+  background: #444;
+  color: white;
+  
+}
+td,
+th {
+  border: 2px solid #999;
+  text-align:center;
+ }
+
+.special-header span {
+  letter-spacing: 0;
+  font-size: 30px;
+  display: block;
+  color: #FF9900;
+  text-transform: none;
+}
+.special-header {
+  text-transform: uppercase;
+  color: #383838;
+  letter-spacing: -0.2rem;
+ }
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: center;
+  margin:5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+.section-coaches {
+  position: relative;
+}
+section-coaches .coach-text .special-header span {
+    color: white;
+  }
+  .section-coaches .coach-text p {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.5);
+  }
